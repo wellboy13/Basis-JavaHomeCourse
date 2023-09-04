@@ -3,8 +3,11 @@ package de.telran.lesson4;
 public class HomeWork1 {
     public static void main(String[] args) {
         String text = new String("I study Basic Java!");
-        stringTest(text);
-        System.out.println("Предпоследняя буква: " + text.charAt(17));
+        System.out.println(Method(text)); // вызов метода Method
+
+        //=================================
+        System.out.println(text.length());
+        System.out.println("Предпоследняя буква: " + text.charAt(text.length() - 2));
         System.out.println("Содержит слово \"Java\"?: " + text.contains("Java"));
         System.out.println(text.substring(14,18));
         System.out.println(text.substring(0,14) + text.substring(18));
@@ -13,8 +16,7 @@ public class HomeWork1 {
         System.out.println(text.toLowerCase());
     }
 
-        public static void stringTest(String txt) {
-            System.out.println(txt);
-
+        public static String Method(String txt) { //метод, который обрабатывает текст
+            return txt + "!!";
     }
 }
