@@ -1,10 +1,18 @@
 package de.telran.lesson8;
 
+import java.util.Scanner;
+
 public class HomeWork {
     public static void main(String[] args) {
-        int x = 25;
-        int y = 180;
-        int z = 25;
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Введите первое целое число для сравнения: ");
+        int x = input.nextInt();
+        System.out.print("Введите второе целое число для сравнения: ");
+        int y = input.nextInt();
+        System.out.print("Введите третье целое число для сравнения: ");
+        int z = input.nextInt();
 
         int min;
         int mid;
@@ -35,8 +43,8 @@ public class HomeWork {
             mid = y;
             max = x;
         }
-        System.out.println("Выводим в порядке возрастания: " + min + " " + mid + " " + max);
-        System.out.println("Выводим в порядке убывания: " + max + " " + mid + " " + min);
+        System.out.println("Выводим числа в порядке возрастания: " + min + " -> " + mid + " -> " + max);
+        System.out.println("Выводим числа в порядке убывания: " + max + " <- " + mid + " <- " + min);
     }
 }
 
