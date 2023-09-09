@@ -1,11 +1,11 @@
-package de.telran.lesson4;
+package de.telran.homeWork_05_09;
 
-public class HomeWork1 {
+public class Task1 {
     public static void main(String[] args) {
 
 
         String text = new String("I study Basic Java!"); // Создаем строку через new
-        Method(text); // передаем в метод строку I study Basic Java!
+        String method = Method(text); // передаем в метод строку I study Basic Java!
 
         //=================================
         System.out.println(text.length());

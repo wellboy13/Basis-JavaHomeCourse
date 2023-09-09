@@ -1,8 +1,8 @@
-package de.telran.lesson4;
+package de.telran.homeWork_05_09;
 
 import java.util.Scanner;
 
-public class HomeWork2Calculator {
+public class CalculatorApp {
     public static void main(String[] args) {
 
         Calculator calc = new Calculator(); // создаем новый экземпляр класса "Calculator" - calc
@@ -14,8 +14,6 @@ public class HomeWork2Calculator {
         System.out.print("Введите второе число: ");
         double y = enter.nextDouble(); // ждем ввод 2-го числа пользователем
 
-        //double x = 14;
-        //double y = 5;
 
         // выводим результат
         System.out.println(x + " / " + y + " = " + calc.div(x, y));

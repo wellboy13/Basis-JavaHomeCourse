@@ -1,8 +1,8 @@
-package de.telran.lesson7;
+package de.telran.homeWork_05_09;
 
 import java.util.Scanner;
 
-public class HomeWorkLesson7 {
+public class Task2 {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
