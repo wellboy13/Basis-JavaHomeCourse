@@ -1,4 +1,4 @@
-package de.telran.task3;
+package de.telran.homeWork_06_09;
 
 import java.util.Scanner;
 
