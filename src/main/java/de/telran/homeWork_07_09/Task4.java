@@ -21,7 +21,7 @@ public class Task4 {
 
         if (h >= 5) {
             System.out.println("Осталось работать " + h + " часов " + hmin + " мин.");
-        } else if (h <= 4 && h > 1) {
+        } else if (h > 1) {
             System.out.println("Осталось работать " + h + " часа " + hmin + " мин.");
         } else if (h == 1) {
             System.out.println("Осталось работать " + h + " час " + hmin + " мин.");
