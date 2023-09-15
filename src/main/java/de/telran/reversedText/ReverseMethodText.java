@@ -10,7 +10,6 @@ public class ReverseMethodText {
         for (int i = length - 1; i >= 0; i--) {
             reversed.append(text.charAt(i)); //запускаем цикл для обратной печати с большего значения к меньшему
         }
-
-        return reversed.toString(); //возвращаем текст
+        return reversed.toString(); //возвращаем текст в main
     }
 }
