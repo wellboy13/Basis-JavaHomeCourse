@@ -3,18 +3,18 @@ package de.telran.homeWork_07_09;
 public class Task3 {
     public static void main(String[] args) {
 
-        double Temperature1 = 102.2; // создаем переменную для первой колбы
-        double Temperature2 = 102.12; // создаем переменную для второй колбы
+        double temperature1 = 102.2; // создаем переменную для первой колбы
+        double temperature2 = 99.12; // создаем переменную для второй колбы
 
-        boolean checkTemp = checkTemperature(Temperature1, Temperature2); //отправляем данные в метод "checkTemperature"
+        boolean checkTemp = checkTemperature(temperature1, temperature2); //отправляем данные в метод "checkTemperature"
 
         System.out.println("Прибор работает: " + checkTemp); //выводим результат о работе прибора
 
     }
 
     // метод проверки прибора
-    public static boolean checkTemperature(double Temperature1, double Temperature2) {
-        return Temperature1 > 100 && Temperature2 < 100; // возвращаем значение true или false
+    public static boolean checkTemperature(double temp1, double temp2) {
+        return temp1 > 100 && temp2 < 100; // возвращаем значение true или false
     }
 }
 
