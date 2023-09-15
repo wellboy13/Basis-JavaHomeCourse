@@ -1,6 +1,6 @@
 package de.telran.homeWork_31_08;
 
-public class Task1 {
+public class Task_text {
     public static void main(String[] args) {
 
 
