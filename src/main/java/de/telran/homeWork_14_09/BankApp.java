@@ -8,6 +8,7 @@ public class BankApp {
 
         int moneyInDay;
         int countDay = 0;
+        
 
         while (account1.balance > 0) {
             countDay++;
